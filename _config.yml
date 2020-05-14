@@ -1,5 +1,5 @@
 
-title: Roger H. Jörg - Projects
+title: Roger H. Jörg
 description: GitHub Pages site for my projects.
 
 baseurl: ""
@@ -11,6 +11,10 @@ theme: minima
 
 minima:
    date_format: "%F"
+
+header_pages:
+  - projects.md
+  - about.md
 
 plugins:
   - jekyll-feed
