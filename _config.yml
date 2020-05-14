@@ -7,6 +7,6 @@ url: ""
 
 github_username: rhjoerg
 
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
