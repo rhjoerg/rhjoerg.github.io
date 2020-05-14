@@ -13,7 +13,7 @@ minima:
    date_format: "%F"
 
 header_pages:
-  - projects.md
+  - projects/index.md
   - about.md
 
 plugins:
