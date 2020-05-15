@@ -14,6 +14,7 @@ minima:
 
 header_pages:
   - projects/index.md
+  - knowledge/index.md
   - about.md
 
 plugins:
