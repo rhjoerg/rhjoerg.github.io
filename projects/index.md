@@ -10,7 +10,8 @@ date: 2020-05-14 17:55:00 +0200
 
 | Project | Description |
 | --- | --- |
-| [rhj-parent](rhj-parent/) | RHJ Parent POM for non-spring projects |
+| [rhj-java-dependencies](rhj-java-dependencies/) | Dependency and plugin version configuration |
+| [rhj-parent](rhj-parent/) | RHJ Parent POM for non-spring projects. To be replaced! |
 
 ## Utility Projects
 
