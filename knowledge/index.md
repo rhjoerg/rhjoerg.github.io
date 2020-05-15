@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Knowledge"
-date: 2020-05-15 06:50 +0200
+date:     2020-05-15
+modified: 2020-05-15
 ---
 
 ## CI on GitHub

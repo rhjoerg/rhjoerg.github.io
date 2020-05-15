@@ -19,4 +19,3 @@ header_pages:
 
 plugins:
   - jekyll-feed
-  - jekyll-last-modified-at

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "The First Post"
-date:   2020-05-14 16:05:00 +0200
+date:     2020-05-14
+modified: 2020-05-15
 categories: github pages
 ---
 

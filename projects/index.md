@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Projects"
-date: 2020-05-14 17:55:00 +0200
+date:     2020-05-14
+modified: 2020-05-15
 ---
 
 [Current Schedule](https://github.com/users/rhjoerg/projects/1)
