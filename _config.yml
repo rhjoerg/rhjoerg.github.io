@@ -12,6 +12,8 @@ theme: minima
 minima:
    date_format: "%F"
 
+show_excerpts: true
+
 header_pages:
   - projects/index.md
   - knowledge/index.md
