@@ -10,6 +10,8 @@ modified: 2020-05-15
 To setup this CI, an additional [file](https://github.com/rhjoerg/rhj-java-dependencies/blob/master/.github/workflows/build.yml) is required.
 Editing this file can be done within the GitHub site as it supports auto-completion.
 
+This [action](https://github.com/actions/checkout#Checkout-multiple-repos-side-by-side) may be helpful to fetch common components.
+
 ## Page Editing
 
 Documentation for the "minima" theme found at [Minima's GitHub Repository](https://github.com/jekyll/minima).
