@@ -2,8 +2,9 @@
 layout: post
 title:  "The First Post"
 date:     2020-05-14
-modified: 2020-05-15
+modified: 2020-05-17
 categories: github pages
+excerpt: It is here, so I don't forget some of the tricks required to write these posts.
 ---
 
 Hi there.

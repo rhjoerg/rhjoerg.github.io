@@ -2,8 +2,9 @@
 layout: post
 title:  "GitHub CI/CD setup"
 date:     2020-05-16
-modified: 2020-05-16
+modified: 2020-05-17
 categories: github ci
+excerpt: After reading multiple online documents to setup the CI/CD, I now have a running solution.
 ---
 
 After reading multiple online documents to setup the CI/CD, I now have a running solution.
