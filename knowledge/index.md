@@ -2,19 +2,13 @@
 layout: page
 title: "Knowledge"
 date:     2020-05-15
-modified: 2020-05-17
+modified: 2020-05-20
 ---
 
-## Eclipse
+## Eclipse / Maven
 
 - How to set maven properties via [Eclipse runtime configuration][eclipse-runtime-configuration].
-
-## CI on GitHub
-
-To setup this CI, an additional [file](https://github.com/rhjoerg/rhj-java-dependencies/blob/master/.github/workflows/build.yml) is required.
-Editing this file can be done within the GitHub site as it supports auto-completion.
-
-This [action][github-action] may be helpful to fetch common components.
+- The [Maven Lifecycle][maven-lifecycle].
 
 ## Page Editing
 
@@ -22,6 +16,14 @@ Documentation for the "minima" theme found at [Minima's GitHub Repository][minim
 
 Footnotes in markdown files must not have a space in front of the colon.
 
+## CI on GitHub (I no longer use this)
+
+To setup this CI, an additional [file](https://github.com/rhjoerg/rhj-java-dependencies/blob/master/.github/workflows/build.yml) is required.
+Editing this file can be done within the GitHub site as it supports auto-completion.
+
+This [action][github-action] may be helpful to fetch common components.
+
 [eclipse-runtime-configuration]: eclipse/how-to-set-maven-properties-in-eclipse-runtime-configuration.html
+[maven-lifecycle]: eclipse/maven-lifecycle.html
 [github-action]: https://github.com/actions/checkout#Checkout-multiple-repos-side-by-side
 [minima-repo]: https://github.com/jekyll/minima
