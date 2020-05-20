@@ -9,6 +9,7 @@ modified: 2020-05-20
 
 - How to set maven properties via [Eclipse runtime configuration][eclipse-runtime-configuration].
 - The [Maven Lifecycle][maven-lifecycle].
+- How to [create an Eclipse Plugin with Eclipse and Maven][create-eclipse-plugin-with-eclipse-and-maven]
 
 ## Page Editing
 
@@ -25,5 +26,6 @@ This [action][github-action] may be helpful to fetch common components.
 
 [eclipse-runtime-configuration]: eclipse/how-to-set-maven-properties-in-eclipse-runtime-configuration.html
 [maven-lifecycle]: eclipse/maven-lifecycle.html
+[create-eclipse-plugin-with-eclipse-and-maven]: eclipse/create-eclipse-plugin-with-eclipse-and-maven.html
 [github-action]: https://github.com/actions/checkout#Checkout-multiple-repos-side-by-side
 [minima-repo]: https://github.com/jekyll/minima
