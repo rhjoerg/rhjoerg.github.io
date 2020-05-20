@@ -2,7 +2,7 @@
 layout: post
 title:  "Ideas, ideas, ..."
 date:     2020-05-19
-modified: 2020-05-19
+modified: 2020-05-20
 categories: maven eclipse
 excerpt: The number of ideas exceeds three. Time to write them down.
 ---
@@ -50,6 +50,8 @@ Maybe I still need my own Maven plugin to perform this.
 
 I am playing around with `jgit`. With every run I check out multiple GitHub repositories. To not bother
 GitHub just because of a change of the format string of some `String.format` call. I need some local Git server.
+
+**Update** (2020-05-20): Found an interesting project named [gitblit](https://github.com/gitblit/gitblit).
 
 ### Further investigations into Jenkins
 
