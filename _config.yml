@@ -18,6 +18,9 @@ header_pages:
   - projects/index.md
   - knowledge/index.md
   - about.md
+  
+disqus:
+  shortname: rhjoerg-github-io
 
 plugins:
   - jekyll-feed

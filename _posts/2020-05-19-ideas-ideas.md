@@ -5,6 +5,7 @@ date:     2020-05-19
 modified: 2020-05-19
 categories: maven eclipse
 excerpt: The number of ideas exceeds three. Time to write them down.
+comments: true
 ---
 
 The number of ideas exceeds three. Time to write them down.
