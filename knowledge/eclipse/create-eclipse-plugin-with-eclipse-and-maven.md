@@ -49,7 +49,7 @@ where you see the other `<classpathentry kind="con" .../>` entries.
 This file needs to be placed into the folder `META-INF` at the root of the project, as Eclipse happily ignores a `manifest=`
 setting in the `build.properties` file.
 
-As a result, this file is not included in the final `.jar`. **This needs to be resolved later**.
+As a result, this file is not included in the final `.jar`. This is [resolved later](#manifestmf).
 
 ### The `plugin.xml` file
 
@@ -75,9 +75,42 @@ The dependencies have to be included in the `pom.xml` file.
 
 The required components are available in the `central` repository.
 
+### Dependencies
+
 The `org.eclipse.swt` artifact doesn't have a valid POM. Therefore it needs to be excluded for now.
 See the `dependencyManagement` section in the [`pom.xml` file][rhj-eclipse-tools-pom] of the referenced project.
-I don't know (yet) how to get access to the `SWT` class used for UI.
+**I don't know (yet) how to get access to the `SWT` class used for UI**.
+
+To start of, the following dependencies suffice:
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.eclipse.platform</groupId>
+    <artifactId>org.eclipse.ui</artifactId>
+  </dependency>
+</dependencies>
+```
+
+### MANIFEST.MF
+
+The generated `.jar` file needs to have the correct `MANIFEST.MF`. This is achieved by adding the following
+section to the `pom.xml`:
+
+```xml
+<pluginManagement>
+  <plugins>
+    <plugin>
+      <artifactId>maven-jar-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifestFile>META-INF/MANIFEST.MF</manifestFile>
+        </archive>
+      </configuration>
+    </plugin>
+  </plugins>
+</pluginManagement>
+```
 
 
 [rhj-eclipse-tools]: https://github.com/rhjoerg/rhj-eclipse-tools
