@@ -19,8 +19,5 @@ header_pages:
   - knowledge/index.md
   - about.md
   
-disqus:
-  shortname: rhjoerg-github-io
-
 plugins:
   - jekyll-feed
