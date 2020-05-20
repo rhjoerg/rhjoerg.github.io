@@ -39,7 +39,7 @@ bin.includes = plugin.xml
 The `.classpath` file of a Maven project is rather complex. Just add the line
 
 ```xml
-    <classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 ```
 
 where you see the other `<classpathentry kind="con" .../>` entries.

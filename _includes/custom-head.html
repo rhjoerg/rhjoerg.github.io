@@ -1,0 +1,20 @@
+{% comment %}
+  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+
+  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
+  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+{% endcomment %}
+
+  <script>  
+	  function addLineNumbers() {
+		  var pre = document.getElementsByTagName('pre'), pl = pre.length;
+		  for (var i = 0; i < pl; i++) {
+			  pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
+			  var num = pre[i].innerHTML.split(/\n/).length;
+			  for (var j = 0; j < (num - 1); j++) {
+				  var line_num = pre[i].getElementsByTagName('span')[0];
+				  line_num.innerHTML += '<span>' + (j + 1) + '</span>';
+			  }
+		  }
+	  }
+  </script>
