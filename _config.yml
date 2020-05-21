@@ -5,6 +5,8 @@ description: GitHub Pages site for my projects.
 baseurl: ""
 url: ""
 
+markdown: kramdown
+
 github_username: rhjoerg
 
 theme: minima
