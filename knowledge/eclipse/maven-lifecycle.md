@@ -21,6 +21,8 @@ Maven defines the [Default Bindings][default-bindings].
 
 | Phase | Goal | Plugin | Remarks |
 | --- | --- | --- | --- |
+| `validate` ||||
+| *tbd* ||||
 | `process-resources` | `resources:resources` | [Resources][maven-resources-plugin] | `jar` |
 | *tbd* ||||
 | `package` | `jar:jar` | [Jar][maven-jar-plugin] | `jar` |
